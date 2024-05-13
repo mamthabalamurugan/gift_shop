@@ -1,0 +1,63 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top:0rem;
+  background-image: url('https://img.freepik.com/premium-photo/lilac-flowers-branch-pink-background-with-copyspace_106006-211.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1707955200&semt=ais');
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  padding: '600px';
+  color:black;
+}
+
+.details {
+  width: 28rem;
+  
+  /* background-image: url('https://img.freepik.com/free-photo/top-view-violet-gift-box_1150-6685.jpg'); */
+}
+.details form input {
+  background-color: black; /* Set input field background color */
+  color: white; /* Set input field text color */
+  border: none;
+  padding: 0.5rem 0.55rem;
+  height:35px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* Login button styling */
+.details form button {
+  margin-top: 1rem; /* Adjust top margin as needed */
+  padding: 0.8rem 1.5rem; /* Adjust padding as needed */
+  background-color: black; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details form button:hover {
+  background-color: black; /* Button background color on hover */
+}
+

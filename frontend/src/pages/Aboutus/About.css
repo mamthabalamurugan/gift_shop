@@ -1,0 +1,66 @@
+.about-us {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items to the center */
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    opacity: 0;
+    animation: fadeInFromTop 0.5s ease forwards;
+  }
+  .about-content h2{
+    text-align: center;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  @keyframes fadeInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-content ul li {
+    margin-bottom: 8px;
+  }
+  
+  .about-content ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .about-content ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  

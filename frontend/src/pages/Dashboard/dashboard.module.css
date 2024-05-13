@@ -1,0 +1,60 @@
+.container {
+  margin: auto;
+  margin-top: 0rem;
+  max-width: 100%;
+  width: 7000%;
+  height: 700px; /* Corrected height value */
+  background-color: #6C3483;
+  background-image: url(https://img.freepik.com/premium-photo/lavender-flower-purple-background_786255-7469.jpg); /* Add your image URL here */
+  background-size: cover; /* Adjust as needed */
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.menu a {
+  width: 22rem;
+  height: 10rem;
+  margin: 2rem 2rem;
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px 1px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  color: #444444;
+  justify-content: space-around;
+}
+
+.menu img {
+  width: 8rem;
+  height: 8rem;
+  margin: 1rem;
+}
+
+.menu a:hover {
+  box-shadow: 2px 2px 10px 1px grey;
+  
+}
+
+.menu h2 {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: auto; /* Ensure it takes the full height of the viewport */
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240103/pngtree-delicate-watercolor-background-in-light-green-palette-image_13909043.png'); /* Add your welcome image URL here */
+  background-size: cover; /* Adjust as needed */
+}
+
+.welcome p {
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: bold;
+}

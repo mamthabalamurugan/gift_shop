@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0rem;
+  background-image: url('https://img.freepik.com/premium-photo/branches-lilac-pink-background-white-purple-lilac-romantic-spring-mood-top-view-copy-your-text-image_157945-375.jpg?size=626&ext=jpg');
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  padding: '600px';
+}
+.details {
+  width: 25rem;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login button styling */
+.details form button {
+  margin-top: 1rem; /* Adjust top margin as needed */
+  padding: 0.8rem 1.5rem; /* Adjust padding as needed */
+  background-color: black; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.details form input {
+  background-color: black; /* Set input field background color */
+  color: white; /* Set input field text color */
+  border: none;
+  padding: 0.5rem 0.55rem;
+  height:35px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+
+.details form button:hover {
+  background-color: black; /* Button background color on hover */
+}
+

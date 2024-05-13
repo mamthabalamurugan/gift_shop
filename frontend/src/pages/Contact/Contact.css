@@ -1,0 +1,96 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-page > div {
+    width: 90%;
+    max-width: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-page > div:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-page > div:nth-child(even) {
+    background-color:lavender;
+  }
+  
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 60%;
+    margin-bottom: 1px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: px;
+    transition: border-color 0.3s ease;
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #6C3483;
+  }
+  
+  .contact-form button {
+    background-color: #6C3483;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #6C3483;
+  }
+  
+  .company-info p {
+    margin: 10px 0;
+  }
+  
+  .customer-support-hours p {
+    margin: 10px 0;
+  }
+  
+  .faq-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .faq-column {
+    flex-basis: calc(100% / 3); /* Set each column to occupy one-third of the container width */
+    max-width: calc(100% / 3); /* Ensure each column doesn't exceed one-third of the container width */
+  }
+  @media (max-width: 768px) {
+    .faq-section {
+      flex-basis: 100%; /* Change to full width on smaller screens to stack items vertically */
+  
+      flex-direction: column;
+    }
+  }
+  
+  
+  .map-directions p {
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-page > div {
+      width: 100%;
+    }
+  }
+  
